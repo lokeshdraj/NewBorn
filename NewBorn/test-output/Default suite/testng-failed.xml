@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Test.HomePageTest">
+      <class name="Test.MainPageTest">
         <methods>
-          <include name="validateTitle"/>
-          <include name="tearDown"/>
-          <include name="launchApp"/>
+          <include name="verifyAddDetailsInRegisterPage"/>
+          <include name="SetUp"/>
         </methods>
-      </class> <!-- Test.HomePageTest -->
+      </class> <!-- Test.MainPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
